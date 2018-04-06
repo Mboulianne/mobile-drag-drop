@@ -17,7 +17,10 @@
     <header>
         <h1>mobile-drag-drop - Polyfill for HTML5 drag'n'drop on touch devices</h1>
     </header>
-    <div draggable="true">Simply draggable</div>
+    <div draggable="true" style="display: flex;">
+        <div style="width: 50%; background-color: pink;">grab me here.  Can only scroll top.</div>
+        <div style="width: 50%; background-color: lightgreen;">grab me here, scroll top or bottom.</div>
+    </div>
     <div style="height: 1000px; width: 100%; background-color: green;" ondragover="(event) => event.preventDefault()">
         Some div
     </div>
@@ -62,7 +65,10 @@
     <header>
         <h1>mobile-drag-drop - Polyfill for HTML5 drag'n'drop on touch devices</h1>
     </header>
-    <div draggable="true">Simply draggable</div>
+    <div draggable="true" style="display: flex;">
+        <div style="width: 50%; background-color: pink;">grab me here.  Can only scroll top.</div>
+        <div style="width: 50%; background-color: lightgreen;">grab me here, scroll top or bottom.</div>
+    </div>
     <div style="height: 1000px; width: 100%; background-color: red;" ondragover="(event) => event.preventDefault()">
         Some div
     </div>
